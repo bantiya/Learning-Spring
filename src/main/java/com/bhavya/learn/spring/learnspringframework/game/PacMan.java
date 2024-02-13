@@ -1,5 +1,9 @@
 package com.bhavya.learn.spring.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
+// In order to
+
 public class PacMan implements GamingConsole{
     public void up() {
         System.out.println("PacMan Up");
