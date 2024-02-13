@@ -11,7 +11,11 @@ public class LearnSpringFrameworkApplication {
 	public static void main(String[] args) {
 
 //		SpringApplication.run(LearnSpringFrameworkApplication.class, args);
-		MarioGame game = new MarioGame();
+
+//		GameRunner class is now loosely coupled right, with the GamingConsole interface.
+//		MarioGame game = new MarioGame();
+//		SuperContraGame game = new SuperContraGame();
+		PacMan game = new PacMan();
 		GameRunner runner = new GameRunner(game);
 		runner.run();
 	}
